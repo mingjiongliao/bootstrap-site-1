@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Page</title>
+    <!-- Extract the content of "iconic-everything-1.9.0.zip" (see assignment description on Canvas - Footer section) to "iconic" subdirectory of "libs" directory inside this head-start project.
+    Create link to ICONIC font here: "./path/to/iconic-glyphs.css" -->
+    <link rel="stylesheet" href="libs/iconic/font/css/iconic-glyphs.css">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/iconic/font/css/iconic-bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="bootstrap-override">
+<header>
+    <!-- this is the place for navbar and masthead -->
+            <div class="masthead">
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-img">
+                 <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    World Climate Organization
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><i class="fa fa-home fa-2x"></i>Home</a></li>
+                    <li><a href="help.html">Things You Can Do<i class="fa fa-question-circle fa-2x"></i></a></li>
+                    <li class="active"><a href="contact.html">Contact<i class="fa fa-phone-square fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main>
+    <!-- this is the place for Google static map-image -->
+    <div class="container">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <br><br><br><br><br><br>
+    <h3>LOCATION</h3>
+    <br>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="map"></div>
+            <p>1385 Woodroffe Avenue, Nepean, ON</p>
+        </div>
+    </div>
+        </div>
+     <!-- Form text fields -->
+        <div class="container">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <br><br>
+            <div class="content2">
+                <br><br><br><br>
+                <h3>CONTACT US</h3>
+                <br>
+            <form id="contactForm" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="firstName" class="col-sm-3 control-label">First Name:</label>
+                            <div class="col-md-7">
+                                <input type="text" id="firstName" class="form-control" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName" class="col-sm-3 control-label">Last Name:</label>
+                            <div class="col-md-7">
+                                <input type="text" id="lastName" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 control-label">Email:</label>
+                            <div class="col-md-7">
+                                <input type="email" id="email" class="form-control" placeholder="abcd@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment" class="col-sm-3 control-label">Comments:</label>
+                            <div class="col-md-7">
+                                <textarea id="comment" class="form-control" rows="5" placeholder=" Enter comments here..."></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-6 col-sm-9">
+                                <button type="submit" class="btn btn-default">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+                </div>
+    <!-- Footer -->
+  <footer align="center" class="footer">
+            <div class="navbar navbar-inverse navbar-fixed-bottom">
+                <div class="container">
+                    <p>&copy; WCO 2016</p>
+                </div>
+                <div class="container text-center">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa fa-youtube-play fa-2x"></i></a>
+                    <a href="https://www.plus.google.com"><i class="fa fa-google-plus-official fa-2x"></i></a>
+                    <a href="https://www.github.com/osma0078"><i class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
