@@ -1,0 +1,329 @@
+/* Import Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Laila|Gabriela|');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Raleway');
+
+/* html */
+html {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4{
+    color: white;
+    font-weight: bold;
+    text-decoration: overline;
+    font-family: "Laila", "Gabriela", Georgia, serif; 
+}
+/* Styling for h3 tag */
+h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 1px #1C1D6F, 
+    inset 0 0 10px #1C1D6F,
+    inset 0 0 0 1px #1C1D6F;
+    border-radius: 0 10px 0 10px;
+}
+/* Styling for h4 tag */
+h4{
+    position: relative;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 1px rgba(53,86,129, 0.4), 
+    inset 0 0 10px rgba(53,86,129, 0.5),
+    inset 0 0 0 1px rgba(53,86,129, 0.4);
+    border-radius: 0 10px 0 10px;
+}
+/* Body text font stack and fallback fonts */
+p {
+    font-family: "Raleway", "Nunito Sans", "Open Sans", Arial, serif; 
+}
+/* Help page icons for 10 steps and navbar */
+.fa-recycle {
+    float: right;
+}
+.fa-bus{
+    float: right;
+}
+.fa-car{
+    float: right;
+}
+.fa-bicycle{
+    float: right;
+}
+.fa-home{
+    margin-left: 20px;
+    float: right;
+}
+.fa-shower{
+	float: right;
+}
+.fa-tree{
+    float: right;
+}
+.fa-envira{
+	float: right;
+}
+.fa-shirtsinbulk{
+	float: right;
+}
+.fa-globe{
+	float: right;
+}
+.fa-power-off{
+	float: right;
+}
+.fa-cog{
+	float: right
+}
+.fa-question-circle{
+    margin-left: 20px;
+    float: right; 
+}
+.fa-phone-square{
+    margin-left:  20px;
+    float: right;
+}
+/*Social media icons styling*/
+.fa-google-plus-official{
+    color: red;  
+}
+.fa-google-plus-official:before{
+    margin: 20px;
+    content: '\f0d5';
+    background: white;
+    border-radius: 10px;
+}
+.fa-youtube-play{
+    color: #BB0000;
+}
+.fa-youtube-play:before{
+    background: white;
+    border-radius: 12px;
+    margin-left: 20px;
+    content: '\f16a ';
+}
+.fa-instagram {
+    color: orange;
+}
+.fa-instagram:before{
+    margin-left: 20px;
+    content: '\f16d';
+    background: white;
+    background-color: purple;
+    border-radius: 10px;
+}
+.fa-twitter-square{
+    color: #0084b4;
+}
+.fa-twitter-square:before{
+    content: '\f081';
+    margin-left: 20px;
+    background: white;
+    border-radius: 10px; 
+}
+.fa-github{
+    color: black;
+    background-color: white;
+    border-radius: 10px;  
+}
+.fa-github:before{
+    content: '\f09b';
+}
+.fa-facebook-square{
+    color: #3b5998;
+    background-color: white;
+    border-radius: 10px;  
+}
+.fa-facebook-square:before{
+    content: '\f082';
+} 
+/* Hover effects for navbar icons */
+.fa-home:hover{
+    -webkit-transition: all 0.5s ease-in;
+            transition: all 0.5s ease-in;
+    color: #85C1E9;
+}
+.fa-question-circle:hover{
+    -webkit-transition: all 0.5s ease-in;
+            transition: all 0.5s ease-in;
+    color: #85C1E9;
+}
+.fa-phone-square:hover{
+    -webkit-transition: all 0.5s ease-in;
+            transition: all 0.5s ease-in;
+    color: #85C1E9;
+}
+
+/* Social media icons hover effect */
+.fa-facebook-square:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #2760bc;
+}
+.fa-twitter-square:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #2760bc;
+}
+.fa-instagram:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #2760bc;
+}
+
+.fa-youtube-play:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #2760bc;
+}
+.fa-google-plus-official:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #2760bc;
+}
+.fa-github:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #2760bc;
+}
+/* Footer text color */
+footer p{
+    color: white;
+}
+/* Google Static MAP API */
+.map {
+    background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=45.348307,-75.755990&zoom=13&size=600x300&maptype=roadmap&markers=color:green%7Clabel:%7C45.348307, -75.755990&key=AIzaSyCiSgUMlDOvYWTG6qSELsw068k18oH_D0E');
+    background-position: center;
+    max-width: 400px;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Form styling */ 
+form {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+    width: 95%;
+    color: white;
+    margin:  10px;   
+}
+/* Map description styling */
+.row p{
+    color: white;
+    margin-top:  20px;
+    text-align: center;
+}
+/* Masthead styling */
+.masthead {
+    background-image: url('../img/earth_4-wallpaper-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    padding: 1px 25px;
+    background-position: left top;
+    position: absolute; 
+    top:0px;
+    opacity:0.9;
+    border: 2px solid black;
+}
+/* List-group styling for help.html */
+.list-group-item{
+    position: relative;
+    padding: 7px 20px;
+    border: 1px solid #000000;
+    color: #2D1A65;
+    font-family: "Nunito Sans", "Raleway", "Open Sans", Arial, serif; 
+
+} 
+/* Changed font weight to bold for navbar-brand */
+.navbar-brand {
+    font-weight: bold;
+}
+/* Jumbotron styling */
+.jumbotron{
+color: white; 
+background-image: url('../img/images11.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 200px;
+max-width: 100%;
+margin-bottom: 50px;
+border: 1px solid white;
+margin: 10px;
+}
+/* Jumbotron paragraph styling */
+.jumbotron p{
+    font-size: 20px;
+    color: white;
+}
+
+/* Color scheme analogous dark blue theme */
+
+/* Navbar colors */
+.navbar-inverse{
+    background-color: #1B2C58;
+}
+/* Background color of page */
+body{
+    background-color: #1C496F;
+}
+/* Navbar hover styling */
+#navbar > ul > li.hover {
+    color: #1C1D6F;
+}
+/* Navbar links clicked styling */
+#navbar > ul > li.active > a {
+    background-color: #1A5665;
+}
+/* Changes regular toggle color */
+.navbar-inverse .navbar-toggle{
+  background-color: #1C1D6F; 
+}
+/* Changes regular toggle color when hovered */
+.navbar-inverse .navbar-toggle:hover{
+  background-color: #1C1D6F; 
+}
+/* Changes regular toggle color when clicked */
+.navbar-inverse .navbar-toggle:active{
+  background-color: #1C496F; 
+}
+/* Changes color of navbar-brand name */
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+/* Styling for paragraphs on home page */
+.content1{
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+}
+/* Added spacing for form on contact page */
+.content2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Changed color of link names in navbar */
+#navbar > ul > li > a {
+  color: white; 
+  font-weight: bold;
+  font-family: "Nunito Sans", "Raleway", "Open Sans", Arial, serif; 
+
+}
