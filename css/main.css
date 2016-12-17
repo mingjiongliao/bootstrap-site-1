@@ -250,7 +250,7 @@ form {
     padding: 7px 20px;
     border: 1px solid #000000;
     color: #2D1A65;
-    font-family: "Nunito Sans", "Raleway", "Open Sans", Arial, serif; 
+    font-family: "Raleway", "Nunito Sans", "Open Sans", Arial, serif; 
 
 } 
 /* Changed font weight to bold for navbar-brand */
@@ -317,13 +317,13 @@ body{
 }
 /* Added spacing for form on contact page */
 .content2{
+    font-family: "Raleway", "Nunito Sans", "Open Sans", Arial, serif; 
     margin-left: 10px;
     margin-right: 10px;
 }
 /* Changed color of link names in navbar */
 #navbar > ul > li > a {
   color: white; 
-  font-weight: bold;
-  font-family: "Nunito Sans", "Raleway", "Open Sans", Arial, serif; 
+  font-family: "Raleway", "Nunito Sans", "Open Sans", Arial, serif; 
 
 }
